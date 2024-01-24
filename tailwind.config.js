@@ -12,7 +12,7 @@ module.exports = {
 			'md': "0.375rem",
 			'lg': "2rem",
 			'full': "9999px",
-			'large': "150px",
+			'large': "140px",
 		},
 		extend: {
 			colors: {
