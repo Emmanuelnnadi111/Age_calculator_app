@@ -21,7 +21,7 @@ function getDayInput () {
         document.querySelector('.day-error').classList.remove('hidden');
         document.querySelector('.empty-error').classList.add('hidden');
     } else {
-      value = '';
+      document.querySelector('.day-error').classList.add('hidden');
     }
 }
 
@@ -36,7 +36,7 @@ function getMonthInput () {
       document.querySelector('.month-error').classList.remove('hidden');
       document.querySelector('.empty-error-month').classList.add('hidden');
     } else {
-      value = '';
+      document.querySelector('.month-error').classList.add('hidden');
     }
 }
 
@@ -52,7 +52,7 @@ function getYearInput () {
       document.querySelector('.year-error').classList.remove('hidden');
       document.querySelector('.empty-error-year').classList.add('hidden');
     } else {
-      yearInput.value = '';
+      document.querySelector('.year-error').classList.add('hidden');
     }
 }
 
